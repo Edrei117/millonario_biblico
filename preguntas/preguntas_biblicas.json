@@ -1,0 +1,3341 @@
+{
+  "dificultad": "variable",
+  "preguntas": [
+    {
+      "pregunta": "¿Cuántos días tardó Dios en crear el mundo?",
+      "opciones": [
+        "3 días",
+        "6 días",
+        "7 días",
+        "40 días"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 1,
+      "cita_biblica": "Génesis 1 (creación en 6 días)"
+    },
+    {
+      "pregunta": "¿Cuál fue el primer hombre creado por Dios?",
+      "opciones": [
+        "Noé",
+        "Adán",
+        "Abraham",
+        "Moisés"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 1,
+      "cita_biblica": "Génesis 2:7 (Adán)"
+    },
+    {
+      "pregunta": "¿Cuál fue la primera mujer?",
+      "opciones": [
+        "Sara",
+        "Rebeca",
+        "Eva",
+        "Raquel"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 1,
+      "cita_biblica": "Génesis 2:21-22 (Eva)"
+    },
+    {
+      "pregunta": "cual fue la primer mujer en ser creada",
+      "opciones": [
+        "Sara",
+        "Rebeca",
+        "Eva",
+        "Raquel"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 1,
+      "cita_biblica": "Génesis 2-3 "
+    },
+    {
+      "pregunta": "¿Qué fruto comieron Adán y Eva que les fue prohibido?",
+      "opciones": [
+        "Manzana",
+        "Uva",
+        "Fruto del árbol del conocimiento",
+        "Higo"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 2,
+      "cita_biblica": "Génesis 3 (fruto prohibido)"
+    },
+    {
+      "pregunta": "¿En qué libro de la Biblia encontramos la historia de Jonás?",
+      "opciones": [
+        "Génesis",
+        "Jonás",
+        "Salmos",
+        "Apocalipsis"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 2,
+      "cita_biblica": "Libro de Jonás"
+    },
+    {
+      "pregunta": "¿Quién construyó el arca?",
+      "opciones": [
+        "Adán",
+        "Moisés",
+        "Noé",
+        "David"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 2,
+      "cita_biblica": "Génesis 6-9 (Noé y el arca)"
+    },
+    {
+      "pregunta": "¿Cuántos días llovió durante el diluvio?",
+      "opciones": [
+        "7 días",
+        "40 días",
+        "100 días",
+        "1 año"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 3,
+      "cita_biblica": "Génesis 7:12 (40 días de lluvia)"
+    },
+    {
+      "pregunta": "¿Cuántos discípulos tuvo Jesús?",
+      "opciones": [
+        "10",
+        "12",
+        "15",
+        "20"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 3,
+      "cita_biblica": "Mateo 10:2-4 / Lucas 6:13-16 (12 discípulos)"
+    },
+    {
+      "pregunta": "¿Quién traicionó a Jesús?",
+      "opciones": [
+        "Pedro",
+        "Judas",
+        "Pablo",
+        "Juan"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 3,
+      "cita_biblica": "Mateo 26:48-49 (Judas)"
+    },
+    {
+      "pregunta": "¿Cuál fue el milagro que Jesús hizo en las bodas de Caná?",
+      "opciones": [
+        "Curó a un ciego",
+        "Convirtió agua en vino",
+        "Resucitó a Lázaro",
+        "Caminó sobre el agua"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 4,
+      "cita_biblica": "Juan 2:1-11 (bodas de Caná)"
+    },
+    {
+      "pregunta": "¿En qué libro de la Biblia encontramos los 10 mandamientos?",
+      "opciones": [
+        "Génesis",
+        "Éxodo",
+        "Levítico",
+        "Deuteronomio"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 4,
+      "cita_biblica": "Éxodo 20 (10 mandamientos)"
+    },
+    {
+      "pregunta": "¿Cuántos mandamientos hay en los 10 mandamientos?",
+      "opciones": [
+        "8",
+        "10",
+        "12",
+        "15"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 4,
+      "cita_biblica": "Éxodo 20 (los 10 mandamientos)"
+    },
+    {
+      "pregunta": "¿Quién fue el rey más sabio de Israel?",
+      "opciones": [
+        "David",
+        "Saúl",
+        "Salomón",
+        "Josías"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 5,
+      "cita_biblica": "1 Reyes 3 (Salomón)"
+    },
+    {
+      "pregunta": "¿Cuántos años tenía Jesús cuando comenzó su ministerio?",
+      "opciones": [
+        "25 años",
+        "30 años",
+        "33 años",
+        "40 años"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 5,
+      "cita_biblica": "Lucas 3:23 (Jesús ~30 años)"
+    },
+    {
+      "pregunta": "¿Quién escribió la mayoría de las cartas del Nuevo Testamento?",
+      "opciones": [
+        "Pedro",
+        "Juan",
+        "Pablo",
+        "Santiago"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 6,
+      "cita_biblica": "Cartas de Pablo en el NT"
+    },
+    {
+      "pregunta": "¿Cuál es el último libro del Nuevo Testamento?",
+      "opciones": [
+        "Judas",
+        "Apocalipsis",
+        "3 Juan",
+        "Hebreos"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 6,
+      "cita_biblica": "Apocalipsis (último libro)"
+    },
+    {
+      "pregunta": "¿Cuántos libros tiene el Nuevo Testamento?",
+      "opciones": [
+        "25",
+        "27",
+        "29",
+        "31"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 7,
+      "cita_biblica": "27 libros (2 Pedro, etc.)"
+    },
+    {
+      "pregunta": "¿Quién fue el padre de Juan el Bautista?",
+      "opciones": [
+        "Zacarías",
+        "José",
+        "Eli",
+        "Abraham"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 7,
+      "cita_biblica": "Lucas 1:13 (Zacarías)"
+    },
+    {
+      "pregunta": "¿En qué ciudad nació Jesús?",
+      "opciones": [
+        "Jerusalén",
+        "Nazaret",
+        "Belén",
+        "Egipto"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 8,
+      "cita_biblica": "Miqueas 5:2 / Mateo 2:1 (Belén)"
+    },
+    {
+      "pregunta": "¿Cuántos libros tiene la Biblia completa?",
+      "opciones": [
+        "64",
+        "66",
+        "68",
+        "70"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 8,
+      "cita_biblica": "66 libros (canon)"
+    },
+    {
+      "pregunta": "¿Quién fue el primer rey de Israel?",
+      "opciones": [
+        "David",
+        "Saúl",
+        "Salomón",
+        "Samuel"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 9,
+      "cita_biblica": "1 Samuel 9-10 (Saúl)"
+    },
+    {
+      "pregunta": "¿Qué personaje bíblico fue echado a los leones?",
+      "opciones": [
+        "José",
+        "Daniel",
+        "Jonás",
+        "David"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 9,
+      "cita_biblica": "Daniel 6 (Daniel en el foso)"
+    },
+    {
+      "pregunta": "¿Quién fue llamado 'el amigo de Dios'?",
+      "opciones": [
+        "Moisés",
+        "David",
+        "Abraham",
+        "Enoc"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 10,
+      "cita_biblica": "Santiago 2:23 (Abraham amigo de Dios)"
+    },
+    {
+      "pregunta": "¿En qué río fue bautizado Jesús?",
+      "opciones": [
+        "Río Nilo",
+        "Río Jordán",
+        "Río Éufrates",
+        "Mar Rojo"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 10,
+      "cita_biblica": "Mateo 3:13 (río Jordán)"
+    },
+    {
+      "pregunta": "¿Quién fue el primer mártir del cristianismo?",
+      "opciones": [
+        "Pedro",
+        "Pablo",
+        "Esteban",
+        "Juan"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 11,
+      "cita_biblica": "Hechos 7 (Esteban)"
+    },
+    {
+      "pregunta": "¿Cuántos años vivió Matusalén?",
+      "opciones": [
+        "800 años",
+        "900 años",
+        "950 años",
+        "969 años"
+      ],
+      "respuesta_correcta": 3,
+      "nivel": 11,
+      "cita_biblica": "Génesis 5:27 (Matusalén 969 años)"
+    },
+    {
+      "pregunta": "¿Qué apóstol negó a Jesús tres veces?",
+      "opciones": [
+        "Juan",
+        "Judas",
+        "Pedro",
+        "Tomás"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 12,
+      "cita_biblica": "Juan 18:15-27 (Pedro niega)"
+    },
+    {
+      "pregunta": "¿Quién escribió el libro de Proverbios?",
+      "opciones": [
+        "David",
+        "Salomón",
+        "Moisés",
+        "Isaías"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 12,
+      "cita_biblica": "Proverbios (Salomón)"
+    },
+    {
+      "pregunta": "¿Cuántos Salmos escribió David?",
+      "opciones": [
+        "50",
+        "73",
+        "100",
+        "150"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 13,
+      "cita_biblica": "73 Salmos de David (tradición)"
+    },
+    {
+      "pregunta": "¿En qué monte recibió Moisés los 10 mandamientos?",
+      "opciones": [
+        "Monte Sinaí",
+        "Monte Sion",
+        "Monte Olivos",
+        "Monte Tabor"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 13,
+      "cita_biblica": "Éxodo 19-20 (Monte Sinaí)"
+    },
+    {
+      "pregunta": "¿Qué apóstol era pescador de oficio?",
+      "opciones": [
+        "Mateo",
+        "Pablo",
+        "Pedro",
+        "Judas"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 14,
+      "cita_biblica": "Mateo 4:18 (Pedro pescador)"
+    },
+    {
+      "pregunta": "¿Quién fue el profeta que predijo el nacimiento de Jesús?",
+      "opciones": [
+        "Isaías",
+        "Jeremías",
+        "Ezequiel",
+        "Daniel"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 14,
+      "cita_biblica": "Isaías 7:14 / 9:6"
+    },
+    {
+      "pregunta": "¿Cuántos días pasó Jesús en el desierto siendo tentado?",
+      "opciones": [
+        "7 días",
+        "21 días",
+        "40 días",
+        "3 meses"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 15,
+      "cita_biblica": "Mateo 4:2 / Lucas 4:2 (40 días)"
+    },
+    {
+      "pregunta": "¿Qué significa 'Emmanuel'?",
+      "opciones": [
+        "Dios con nosotros",
+        "Dios es amor",
+        "Dios es grande",
+        "Dios es santo"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 15,
+      "cita_biblica": "Isaías 7:14 (Emmanuel)"
+    },
+    {
+      "pregunta": "¿Cuántas veces le cortó el pelo Sansón a Dalila?",
+      "opciones": [
+        "1 vez",
+        "3 veces",
+        "7 veces",
+        "Nunca, solo una vez"
+      ],
+      "respuesta_correcta": 3,
+      "nivel": 15,
+      "cita_biblica": "Jueces 16 (Sansón y Dalila)"
+    },
+    {
+      "pregunta": "¿cual fue el rey que se convirtio en bestia?",
+      "opciones": [
+        "Salomón",
+        "Jerjes",
+        "Nabuconodosor",
+        "Acab"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 15,
+      "cita_biblica": "Daniel 4 (Nabucodonosor)"
+    },
+    {
+      "pregunta": "¿Qué animal habló a Balaam?",
+      "opciones": [
+        "Un león",
+        "Un burro",
+        "Un águila",
+        "Una serpiente"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 1,
+      "cita_biblica": "Números 22:28"
+    },
+    {
+      "pregunta": "¿Quién fue vendido por sus hermanos a Egipto?",
+      "opciones": [
+        "Benjamín",
+        "José",
+        "Rubén",
+        "Judá"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 1,
+      "cita_biblica": "Génesis 37:28"
+    },
+    {
+      "pregunta": "¿Cuántas plagas envió Dios a Egipto?",
+      "opciones": [
+        "7",
+        "10",
+        "12",
+        "5"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 1,
+      "cita_biblica": "Éxodo 7-12"
+    },
+    {
+      "pregunta": "¿Quién sacó a Israel de Egipto?",
+      "opciones": [
+        "Josué",
+        "Moisés",
+        "Aarón",
+        "Samuel"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 2,
+      "cita_biblica": "Éxodo 3"
+    },
+    {
+      "pregunta": "¿Qué mar cruzó Israel a pie seco?",
+      "opciones": [
+        "Mar Mediterráneo",
+        "Mar Rojo",
+        "Mar Muerto",
+        "Mar de Galilea"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 2,
+      "cita_biblica": "Éxodo 14"
+    },
+    {
+      "pregunta": "¿Quién derrotó a Goliat?",
+      "opciones": [
+        "Saúl",
+        "David",
+        "Jonatán",
+        "Samuel"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 2,
+      "cita_biblica": "1 Samuel 17"
+    },
+    {
+      "pregunta": "¿Qué rey construyó el primer templo en Jerusalén?",
+      "opciones": [
+        "David",
+        "Salomón",
+        "Ezequías",
+        "Josías"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 2,
+      "cita_biblica": "1 Reyes 6"
+    },
+    {
+      "pregunta": "¿Quién fue el padre de Isaac?",
+      "opciones": [
+        "Noé",
+        "Jacob",
+        "Abraham",
+        "Ismael"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 3,
+      "cita_biblica": "Génesis 21"
+    },
+    {
+      "pregunta": "¿Cuántos hijos tuvo Jacob?",
+      "opciones": [
+        "10",
+        "12",
+        "14",
+        "7"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 3,
+      "cita_biblica": "Génesis 35"
+    },
+    {
+      "pregunta": "¿Quién fue la madre de Jesús?",
+      "opciones": [
+        "Ana",
+        "María",
+        "Elisabet",
+        "Magdalena"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 3,
+      "cita_biblica": "Lucas 1:30"
+    },
+    {
+      "pregunta": "¿En qué día descansó Dios después de crear el mundo?",
+      "opciones": [
+        "Quinto",
+        "Sexto",
+        "Séptimo",
+        "Octavo"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 3,
+      "cita_biblica": "Génesis 2:2"
+    },
+    {
+      "pregunta": "¿Qué señal pidió Gedeón a Dios?",
+      "opciones": [
+        "Arcoíris",
+        "El rocío en el vellón",
+        "Estrella",
+        "Rayos"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 4,
+      "cita_biblica": "Jueces 6:36-40"
+    },
+    {
+      "pregunta": "¿Quién fue arrebatado al cielo en un carro de fuego?",
+      "opciones": [
+        "Enoc",
+        "Elías",
+        "Moisés",
+        "Enoch"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 4,
+      "cita_biblica": "2 Reyes 2:11"
+    },
+    {
+      "pregunta": "¿Qué profeta fue tragado por un gran pez?",
+      "opciones": [
+        "Elías",
+        "Jonás",
+        "Daniel",
+        "Ezequiel"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 4,
+      "cita_biblica": "Jonás 1:17"
+    },
+    {
+      "pregunta": "¿Cuántos libros tiene el Antiguo Testamento?",
+      "opciones": [
+        "36",
+        "39",
+        "42",
+        "45"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 4,
+      "cita_biblica": "Canon protestante"
+    },
+    {
+      "pregunta": "¿Quién interpretó el sueño del faraón?",
+      "opciones": [
+        "Daniel",
+        "José",
+        "Moisés",
+        "Samuel"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 5,
+      "cita_biblica": "Génesis 41"
+    },
+    {
+      "pregunta": "¿Qué mujer salvó a los espías en Jericó?",
+      "opciones": [
+        "Rut",
+        "Rahab",
+        "Raquel",
+        "Rebeca"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 5,
+      "cita_biblica": "Josué 2"
+    },
+    {
+      "pregunta": "¿Quién fue el sucesor de Moisés?",
+      "opciones": [
+        "Caleb",
+        "Josué",
+        "Eleazar",
+        "Aaron"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 5,
+      "cita_biblica": "Josué 1"
+    },
+    {
+      "pregunta": "¿ Qué apóstol dudó de la resurrección de Jesús?",
+      "opciones": [
+        "Pedro",
+        "Tomás",
+        "Andrés",
+        "Felipe"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 5,
+      "cita_biblica": "Juan 20:24-29"
+    },
+    {
+      "pregunta": "¿Cuántos panes y peces multiplicó Jesús para alimentar a la multitud?",
+      "opciones": [
+        "3 panes y 2 peces",
+        "5 panes y 2 peces",
+        "7 panes y 3 peces",
+        "2 panes y 5 peces"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 6,
+      "cita_biblica": "Juan 6:9"
+    },
+    {
+      "pregunta": "¿Quién bautizó a Jesús?",
+      "opciones": [
+        "Pedro",
+        "Juan el Bautista",
+        "Andrés",
+        "Felipe"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 6,
+      "cita_biblica": "Mateo 3:13"
+    },
+    {
+      "pregunta": "¿En qué día resucitó Jesús?",
+      "opciones": [
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 6,
+      "cita_biblica": "Mateo 28:1"
+    },
+    {
+      "pregunta": "¿Quién fue el rey que pidió la cabeza de Juan el Bautista?",
+      "opciones": [
+        "Pilato",
+        "Herodes",
+        "César",
+        "Anás"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 6,
+      "cita_biblica": "Mateo 14:1-12"
+    },
+    {
+      "pregunta": "¿Qué apóstol era cobrador de impuestos?",
+      "opciones": [
+        "Mateo",
+        "Simón",
+        "Tadeo",
+        "Bartolomé"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 7,
+      "cita_biblica": "Mateo 9:9"
+    },
+    {
+      "pregunta": "¿Quién resucitó a Lázaro?",
+      "opciones": [
+        "Pedro",
+        "Pablo",
+        "Jesús",
+        "Elías"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 7,
+      "cita_biblica": "Juan 11"
+    },
+    {
+      "pregunta": "¿Cuál fue la última cena de Jesús con sus discípulos?",
+      "opciones": [
+        "Pascua",
+        "Pentecostés",
+        "Fiesta de los Tabernáculos",
+        "Hanukkah"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 7,
+      "cita_biblica": "Mateo 26:17"
+    },
+    {
+      "pregunta": "¿Qué apóstol escribió el libro de Apocalipsis?",
+      "opciones": [
+        "Pedro",
+        "Pablo",
+        "Juan",
+        "Santiago"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 7,
+      "cita_biblica": "Apocalipsis 1:1"
+    },
+    {
+      "pregunta": "¿Quién fue el sumo sacerdote que condenó a Jesús?",
+      "opciones": [
+        "Herodes",
+        "Caifás",
+        "Pilato",
+        "Anás"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 8,
+      "cita_biblica": "Mateo 26:57"
+    },
+    {
+      "pregunta": "¿En qué monte fue Jesús transfigurado?",
+      "opciones": [
+        "Sinaí",
+        "Sion",
+        "Tabor",
+        "Olivos"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 8,
+      "cita_biblica": "Mateo 17:1"
+    },
+    {
+      "pregunta": "¿Quién fue el gobernador romano que entregó a Jesús para ser crucificado?",
+      "opciones": [
+        "Herodes",
+        "Poncio Pilato",
+        "Caifás",
+        "Félix"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 8,
+      "cita_biblica": "Mateo 27:26"
+    },
+    {
+      "pregunta": "¿Cuántas tentaciones tuvo Jesús en el desierto?",
+      "opciones": [
+        "2",
+        "3",
+        "4",
+        "7"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 8,
+      "cita_biblica": "Mateo 4:1-11"
+    },
+    {
+      "pregunta": "¿Qué apóstol era hermano de Pedro?",
+      "opciones": [
+        "Juan",
+        "Andrés",
+        "Felipe",
+        "Tomás"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 9,
+      "cita_biblica": "Mateo 4:18"
+    },
+    {
+      "pregunta": "¿Quién fue la esposa de Abraham?",
+      "opciones": [
+        "Rebeca",
+        "Raquel",
+        "Sara",
+        "Lea"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 9,
+      "cita_biblica": "Génesis 17:15"
+    },
+    {
+      "pregunta": "¿Qué significa el nombre 'Jesús'?",
+      "opciones": [
+        "Rey de reyes",
+        "Dios con nosotros",
+        "Salvador",
+        "Mesías"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 9,
+      "cita_biblica": "Mateo 1:21"
+    },
+    {
+      "pregunta": "¿Quién fue el padre de Juan el Bautista según el ángel?",
+      "opciones": [
+        "Zacarías",
+        "José",
+        "Eli",
+        "Abraham"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 9,
+      "cita_biblica": "Lucas 1:13"
+    },
+    {
+      "pregunta": "¿En qué ciudad creció Jesús?",
+      "opciones": [
+        "Belén",
+        "Jerusalén",
+        "Nazaret",
+        "Galilea"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 10,
+      "cita_biblica": "Lucas 2:39"
+    },
+    {
+      "pregunta": "¿Cuántos hijos de Israel fueron a Egipto con Jacob?",
+      "opciones": [
+        "11",
+        "12",
+        "70",
+        "66"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 10,
+      "cita_biblica": "Génesis 46:27"
+    },
+    {
+      "pregunta": "¿Qué rey pidió a Salomón que le cortara al niño por la mitad?",
+      "opciones": [
+        "David",
+        "Salomón",
+        "Saúl",
+        "Roboam"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 10,
+      "cita_biblica": "1 Reyes 3:16-28"
+    },
+    {
+      "pregunta": "¿Quién fue la madre de Salomón?",
+      "opciones": [
+        "Mical",
+        "Abigail",
+        "Betsabé",
+        "Ana"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 10,
+      "cita_biblica": "2 Samuel 12:24"
+    },
+    {
+      "pregunta": "¿Qué animal engañó a Eva en el Edén?",
+      "opciones": [
+        "Un ángel",
+        "Una serpiente",
+        "Un león",
+        "Un águila"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 11,
+      "cita_biblica": "Génesis 3:1"
+    },
+    {
+      "pregunta": "¿Cuántas veces negó Pedro a Jesús?",
+      "opciones": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 11,
+      "cita_biblica": "Mateo 26:69-75"
+    },
+    {
+      "pregunta": "¿Quién fue arrojado al foso de los leones?",
+      "opciones": [
+        "José",
+        "Daniel",
+        "Sadrac",
+        "Jeremías"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 11,
+      "cita_biblica": "Daniel 6"
+    },
+    {
+      "pregunta": "¿En qué libro está la historia de Rut?",
+      "opciones": [
+        "Jueces",
+        "Rut",
+        "1 Samuel",
+        "Génesis"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 11,
+      "cita_biblica": "Libro de Rut"
+    },
+    {
+      "pregunta": "¿Quién fue el bisabuelo del rey David?",
+      "opciones": [
+        "Isaí",
+        "Booz",
+        "Obed",
+        "Rut"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 12,
+      "cita_biblica": "Rut 4:21"
+    },
+    {
+      "pregunta": "¿Qué profeta fue llevado al cielo sin morir?",
+      "opciones": [
+        "Enoc",
+        "Elías",
+        "Moisés",
+        "Enoch"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 12,
+      "cita_biblica": "2 Reyes 2:11"
+    },
+    {
+      "pregunta": "¿Cuántos leprosos curó Jesús y solo uno volvió a dar gracias?",
+      "opciones": [
+        "5",
+        "7",
+        "10",
+        "12"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 12,
+      "cita_biblica": "Lucas 17:12-19"
+    },
+    {
+      "pregunta": "¿Quién fue el hermano de Moisés?",
+      "opciones": [
+        "Josué",
+        "Aarón",
+        "Caleb",
+        "Eleazar"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 12,
+      "cita_biblica": "Éxodo 4:14"
+    },
+    {
+      "pregunta": "¿Qué maná recibió Israel en el desierto?",
+      "opciones": [
+        "Carne",
+        "Pan del cielo",
+        "Agua",
+        "Miel"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 13,
+      "cita_biblica": "Éxodo 16"
+    },
+    {
+      "pregunta": "¿Quién fue el rey más joven de Judá?",
+      "opciones": [
+        "Josías",
+        "Joás",
+        "Ezequías",
+        "Manasés"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 13,
+      "cita_biblica": "2 Reyes 11:21"
+    },
+    {
+      "pregunta": "¿En qué pueblo vivió Lázaro con sus hermanas?",
+      "opciones": [
+        "Betania",
+        "Belén",
+        "Nazaret",
+        "Caná"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 13,
+      "cita_biblica": "Juan 11:1"
+    },
+    {
+      "pregunta": "¿Qué mujer fue madre de Samuel?",
+      "opciones": [
+        "Raquel",
+        "Ana",
+        "Ester",
+        "Rut"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 13,
+      "cita_biblica": "1 Samuel 1"
+    },
+    {
+      "pregunta": "¿Cuántas tribus tenía Israel?",
+      "opciones": [
+        "10",
+        "12",
+        "13",
+        "14"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 14,
+      "cita_biblica": "Génesis 49"
+    },
+    {
+      "pregunta": "¿Quién fue el profeta que confrontó a Acab?",
+      "opciones": [
+        " Eliseo",
+        "Elías",
+        "Samuel",
+        "Natán"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 14,
+      "cita_biblica": "1 Reyes 18"
+    },
+    {
+      "pregunta": "¿Qué hizo Jesús con los cambistas en el templo?",
+      "opciones": [
+        "Los bendijo",
+        "Los expulsó",
+        "Los enseñó",
+        "Los sanó"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 14,
+      "cita_biblica": "Juan 2:15"
+    },
+    {
+      "pregunta": "¿Quién fue el discípulo amado de Jesús?",
+      "opciones": [
+        "Pedro",
+        "Juan",
+        "Santiago",
+        "Andrés"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 14,
+      "cita_biblica": "Juan 13:23"
+    },
+    {
+      "pregunta": "¿En qué día de la semana murió Jesús?",
+      "opciones": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 15,
+      "cita_biblica": "Juan 19:31"
+    },
+    {
+      "pregunta": "¿Cuántos animales de cada especie entraron en el arca?",
+      "opciones": [
+        "1 pareja",
+        "2 parejas",
+        "7 parejas de limpios",
+        "Varios según especies"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 15,
+      "cita_biblica": "Génesis 7:2"
+    },
+    {
+      "pregunta": "¿Quién fue el rey que bailó delante del arca?",
+      "opciones": [
+        "Salomón",
+        "David",
+        "Saúl",
+        "Josafat"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 15,
+      "cita_biblica": "2 Samuel 6:14"
+    },
+    {
+      "pregunta": "¿Qué apóstol era gemelo?",
+      "opciones": [
+        "Tomás",
+        "Judas",
+        "Simón",
+        "Mateo"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 15,
+      "cita_biblica": "Juan 11:16"
+    },
+    {
+      "pregunta": "¿Dónde nació el apóstol Pablo?",
+      "opciones": [
+        "Jerusalén",
+        "Tarso",
+        "Antioquía",
+        "Romanos"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 1,
+      "cita_biblica": "Hechos 21:39"
+    },
+    {
+      "pregunta": "¿Qué libro del NT tiene 28 capítulos?",
+      "opciones": [
+        "Mateo",
+        "Marcos",
+        "Lucas",
+        "Juan"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 1,
+      "cita_biblica": "Mateo"
+    },
+    {
+      "pregunta": "¿Quién fue el rey que pidió sabiduría a Dios?",
+      "opciones": [
+        "David",
+        "Salomón",
+        "Ezequías",
+        "Josías"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 2,
+      "cita_biblica": "1 Reyes 3:9"
+    },
+    {
+      "pregunta": "¿Cuántos años tenía Isaac cuando se casó con Rebeca?",
+      "opciones": [
+        "25",
+        "35",
+        "40",
+        "50"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 2,
+      "cita_biblica": "Génesis 25:20"
+    },
+    {
+      "pregunta": "¿Qué significa 'Cristo'?",
+      "opciones": [
+        "Rey",
+        "Ungido",
+        "Salvador",
+        "Señor"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 2,
+      "cita_biblica": "Título mesiánico"
+    },
+    {
+      "pregunta": "¿Quién fue enviado a Nínive a predicar?",
+      "opciones": [
+        "Elías",
+        "Jonás",
+        "Daniel",
+        "Jeremías"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 3,
+      "cita_biblica": "Jonás 1:2"
+    },
+    {
+      "pregunta": "¿Cuántos años duró el diluvio sobre la tierra?",
+      "opciones": [
+        "40 días",
+        "150 días",
+        "1 año",
+        "2 años"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 3,
+      "cita_biblica": "Génesis 7-8"
+    },
+    {
+      "pregunta": "¿Qué evangelista era médico?",
+      "opciones": [
+        "Mateo",
+        "Marcos",
+        "Lucas",
+        "Juan"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 3,
+      "cita_biblica": "Colosenses 4:14"
+    },
+    {
+      "pregunta": "¿Quién fue entregado a Poncio Pilato?",
+      "opciones": [
+        "Barrabás",
+        "Jesús",
+        "Pedro",
+        "Pablo"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 4,
+      "cita_biblica": "Mateo 27:2"
+    },
+    {
+      "pregunta": "¿En qué lugar Jesús alimentó a los 5000?",
+      "opciones": [
+        "Desierto",
+        "Colina cerca del mar",
+        "Jerusalén",
+        "Nazaret"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 4,
+      "cita_biblica": "Juan 6:1-15"
+    },
+    {
+      "pregunta": "¿Qué profeta fue enviado a la viuda de Sarepta?",
+      "opciones": [
+        "Isaías",
+        "Elías",
+        "Ezequiel",
+        "Jeremías"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 4,
+      "cita_biblica": "1 Reyes 17:9"
+    },
+    {
+      "pregunta": "¿Quién fue padre de Ismael?",
+      "opciones": [
+        "Jacob",
+        "Isaac",
+        "Abraham",
+        "Lot"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 5,
+      "cita_biblica": "Génesis 16:15"
+    },
+    {
+      "pregunta": "¿Cuántas cuerdas tenía el arpa de David?",
+      "opciones": [
+        "No se especifica",
+        "10",
+        "12",
+        "7"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 5,
+      "cita_biblica": "1 Samuel 16:23"
+    },
+    {
+      "pregunta": "¿Qué árbol vio Nabucodonosor en su sueño?",
+      "opciones": [
+        "Olivo",
+        "Higuera",
+        "Gran árbol",
+        "Cedro"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 5,
+      "cita_biblica": "Daniel 4"
+    },
+    {
+      "pregunta": "¿Quién fue el primer mártir cristiano apedreado?",
+      "opciones": [
+        "Pablo",
+        "Pedro",
+        "Esteban",
+        "Santiago"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 6,
+      "cita_biblica": "Hechos 7:59"
+    },
+    {
+      "pregunta": "¿En qué idioma estaba escrito el letrero de la cruz?",
+      "opciones": [
+        "Solo hebreo",
+        "Hebreo, griego y latín",
+        "Solo griego",
+        "Latín y hebreo"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 6,
+      "cita_biblica": "Juan 19:20"
+    },
+    {
+      "pregunta": "¿Qué reina visitó a Salomón?",
+      "opciones": [
+        "De Saba",
+        "De Etiopía",
+        "De Egipto",
+        "De Babilonia"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 6,
+      "cita_biblica": "1 Reyes 10"
+    },
+    {
+      "pregunta": "¿Cuántas veces perdonar según Jesús?",
+      "opciones": [
+        "7",
+        "70 veces 7",
+        "100",
+        "Ilimitado"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 7,
+      "cita_biblica": "Mateo 18:22"
+    },
+    {
+      "pregunta": "¿Quién fue el padre de Moisés?",
+      "opciones": [
+        "Amram",
+        "Aarón",
+        "Ceoré",
+        "Leví"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 7,
+      "cita_biblica": "Éxodo 6:20"
+    },
+    {
+      "pregunta": "¿Qué manó Caín a Abel?",
+      "opciones": [
+        "Con una espada",
+        "Con una piedra",
+        "No se especifica",
+        "Con un palo"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 7,
+      "cita_biblica": "Génesis 4:8"
+    },
+    {
+      "pregunta": "¿Cuántos años tenía José cuando fue vendido?",
+      "opciones": [
+        "15",
+        "17",
+        "20",
+        "25"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 8,
+      "cita_biblica": "Génesis 37:2"
+    },
+    {
+      "pregunta": "¿Qué mujer fue madre de Salomón?",
+      "opciones": [
+        "Mical",
+        "Betsabé",
+        "Abigail",
+        "Ahinoam"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 8,
+      "cita_biblica": "2 Samuel 12:24"
+    },
+    {
+      "pregunta": "¿Quién fue el rey que tuvo 700 esposas?",
+      "opciones": [
+        "David",
+        "Salomón",
+        "Roboam",
+        "Acab"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 8,
+      "cita_biblica": "1 Reyes 11:3"
+    },
+    {
+      "pregunta": "¿En qué río Naamán se lavó siete veces?",
+      "opciones": [
+        "Jordán",
+        "Nilo",
+        "Éufrates",
+        "Tigris"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 9,
+      "cita_biblica": "2 Reyes 5:14"
+    },
+    {
+      "pregunta": "¿Qué apóstol era conocido como el Zelote?",
+      "opciones": [
+        "Simón",
+        "Judas",
+        "Tadeo",
+        "Bartolomé"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 9,
+      "cita_biblica": "Lucas 6:15"
+    },
+    {
+      "pregunta": "¿Quién fue el faraón en tiempos de José?",
+      "opciones": [
+        "Ramsés",
+        "No se nombra",
+        "Amenhotep",
+        "Tutankamón"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 9,
+      "cita_biblica": "Génesis 41"
+    },
+    {
+      "pregunta": "¿Cuántos años vivió Noé?",
+      "opciones": [
+        "600",
+        "800",
+        "950",
+        "969"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 10,
+      "cita_biblica": "Génesis 9:29"
+    },
+    {
+      "pregunta": "¿Qué ave llevó una rama de olivo a Noé?",
+      "opciones": [
+        "Cuervo",
+        "Paloma",
+        "Águila",
+        "Golondrina"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 10,
+      "cita_biblica": "Génesis 8:11"
+    },
+    {
+      "pregunta": "¿Quién fue el padre de Juan el Bautista?",
+      "opciones": [
+        "Zacarías",
+        "José",
+        "Eli",
+        "Joacim"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 10,
+      "cita_biblica": "Lucas 1:5"
+    },
+    {
+      "pregunta": "¿En qué libro está el Sermón del Monte?",
+      "opciones": [
+        "Marcos",
+        "Lucas",
+        "Mateo",
+        "Juan"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 11,
+      "cita_biblica": "Mateo 5-7"
+    },
+    {
+      "pregunta": "¿Qué fruto del Espíritu se menciona primero en Gálatas?",
+      "opciones": [
+        "Gozo",
+        "Amor",
+        "Paz",
+        "Paciencia"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 11,
+      "cita_biblica": "Gálatas 5:22"
+    },
+    {
+      "pregunta": "¿Quién fue el profeta que vio la rueda dentro de rueda?",
+      "opciones": [
+        "Daniel",
+        "Ezequiel",
+        "Isaías",
+        "Jeremías"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 11,
+      "cita_biblica": "Ezequiel 1"
+    },
+    {
+      "pregunta": "¿Cuántos capítulos tiene el libro de Salmos?",
+      "opciones": [
+        "100",
+        "119",
+        "150",
+        "73"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 12,
+      "cita_biblica": "Salmos"
+    },
+    {
+      "pregunta": "¿Quién fue el rey que escribió muchos Salmos?",
+      "opciones": [
+        "Salomón",
+        "David",
+        "Ezequías",
+        "Josafat"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 12,
+      "cita_biblica": "Salmos"
+    },
+    {
+      "pregunta": "¿En qué ciudad Pablo fue ciudadano romano?",
+      "opciones": [
+        "Tarso",
+        "Jerusalén",
+        "Antioquía",
+        "Corinto"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 12,
+      "cita_biblica": "Hechos 21:39"
+    },
+    {
+      "pregunta": "¿Qué personaje duró 40 días en el arca antes del diluvio?",
+      "opciones": [
+        "Noé",
+        "Los animales",
+        "7 días según algunos",
+        "No aplica"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 13,
+      "cita_biblica": "Génesis 7:4"
+    },
+    {
+      "pregunta": "¿Quién fue la madre de Moisés?",
+      "opciones": [
+        "Jocabed",
+        "Séfora",
+        "Miriam",
+        "Zipporah"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 13,
+      "cita_biblica": "Éxodo 2:1"
+    },
+    {
+      "pregunta": "¿Cuántas veces tocó Josué las trompetas en Jericó?",
+      "opciones": [
+        "1 vez",
+        "7 veces en 7 días",
+        "40 veces",
+        "13 veces"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 13,
+      "cita_biblica": "Josué 6"
+    },
+    {
+      "pregunta": "¿Qué montaña vio Moisés antes de morir?",
+      "opciones": [
+        "Sinaí",
+        "Nebo",
+        "Pisga",
+        "Seir"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 14,
+      "cita_biblica": "Deuteronomio 34:1"
+    },
+    {
+      "pregunta": "¿Quién fue el juez que tenía 30 hijos?",
+      "opciones": [
+        "Gedeón",
+        "Jefté",
+        "Jair",
+        "Ibzan"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 14,
+      "cita_biblica": "Jueces 10:4"
+    },
+    {
+      "pregunta": "¿En qué verso está 'Porque de tal manera amó Dios al mundo'?",
+      "opciones": [
+        "Juan 3:15",
+        "Juan 3:16",
+        "Juan 3:17",
+        "1 Juan 4:8"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 14,
+      "cita_biblica": "Juan 3:16"
+    },
+    {
+      "pregunta": "¿Cuántos libros hay en la ley de Moisés (Pentateuco)?",
+      "opciones": [
+        "3",
+        "5",
+        "7",
+        "12"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 15,
+      "cita_biblica": "Pentateuco"
+    },
+    {
+      "pregunta": "¿Quién fue el primer rey de Judá tras la división?",
+      "opciones": [
+        "Roboam",
+        "Jeroboam",
+        "Abías",
+        "Asa"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 15,
+      "cita_biblica": "1 Reyes 12"
+    },
+    {
+      "pregunta": "¿Qué escribió Jesús en la tierra cuando trajeron a la adúltera?",
+      "opciones": [
+        "No se dice",
+        "Los pecados",
+        "Nada",
+        "La ley"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 15,
+      "cita_biblica": "Juan 8:6"
+    },
+    {
+      "pregunta": "¿Quién fue el profeta que ayunó 40 días?",
+      "opciones": [
+        "Elías",
+        "Moisés",
+        "Daniel",
+        "Todos ellos"
+      ],
+      "respuesta_correcta": 3,
+      "nivel": 15,
+      "cita_biblica": "Éxodo 34:28, 1 Reyes 19:8, Daniel 10"
+    },
+    {
+      "pregunta": "¿Cuántas veces cayó Jesús camino a la cruz según la tradición?",
+      "opciones": [
+        "1",
+        "2",
+        "3",
+        "No se registra"
+      ],
+      "respuesta_correcta": 3,
+      "nivel": 1,
+      "cita_biblica": "Tradición"
+    },
+    {
+      "pregunta": "¿Qué animal mencionó Jesús como ejemplo de astucia?",
+      "opciones": [
+        "Zorro",
+        "Serpiente",
+        "Lobo",
+        "Águila"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 2,
+      "cita_biblica": "Lucas 13:32"
+    },
+    {
+      "pregunta": "¿Quién fue el rey que pidió la sabiduría de Salomón?",
+      "opciones": [
+        "Reina de Saba",
+        "Faraón",
+        "Hiram",
+        "Ninguno"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 2,
+      "cita_biblica": "1 Reyes 10"
+    },
+    {
+      "pregunta": "¿En qué festividad fue crucificado Jesús?",
+      "opciones": [
+        "Hanukkah",
+        "Pascua",
+        "Pentecostés",
+        "Tabernáculos"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 3,
+      "cita_biblica": "Juan 19:14"
+    },
+    {
+      "pregunta": "¿Cuántos años tenía Josías cuando comenzó a reinar?",
+      "opciones": [
+        "6",
+        "8",
+        "12",
+        "16"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 3,
+      "cita_biblica": "2 Reyes 22:1"
+    },
+    {
+      "pregunta": "¿Qué apóstol era hermano de Santiago?",
+      "opciones": [
+        "Pedro",
+        "Juan",
+        "Andrés",
+        "Felipe"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 4,
+      "cita_biblica": "Hechos 12:2"
+    },
+    {
+      "pregunta": "¿Quién fue el sumo sacerdote cuando nació Jesús?",
+      "opciones": [
+        "Caifás",
+        "Anás",
+        "No se especifica",
+        "Zacarías"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 4,
+      "cita_biblica": "Lucas 2"
+    },
+    {
+      "pregunta": "¿Qué lago recorrió Jesús predicando?",
+      "opciones": [
+        "Mar Muerto",
+        "Mar de Galilea",
+        "Mar Rojo",
+        "Lago de Genesaret"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 5,
+      "cita_biblica": "Mateo 4:18"
+    },
+    {
+      "pregunta": "¿Cuántas veces aparece la palabra 'amén' en la Biblia?",
+      "opciones": [
+        "Aproximadamente 50",
+        "Más de 100",
+        "Más de 50",
+        "Variable"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 5,
+      "cita_biblica": "Biblia"
+    },
+    {
+      "pregunta": "¿Quién fue el padre de Esaú y Jacob?",
+      "opciones": [
+        "Abraham",
+        "Isaac",
+        "Ismael",
+        "Nacor"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 6,
+      "cita_biblica": "Génesis 25:19"
+    },
+    {
+      "pregunta": "¿Qué rey encontró el libro de la ley en el templo?",
+      "opciones": [
+        "Ezequías",
+        "Josías",
+        "Joás",
+        "Asa"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 6,
+      "cita_biblica": "2 Reyes 22:8"
+    },
+    {
+      "pregunta": "¿En qué desierto Israel vagó 40 años?",
+      "opciones": [
+        "Sinaí",
+        "Paran",
+        "Zin",
+        "Varios"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 7,
+      "cita_biblica": "Números 14:33"
+    },
+    {
+      "pregunta": "¿Quién fue la madre de Isaac?",
+      "opciones": [
+        "Agar",
+        "Sara",
+        "Rebeca",
+        "Ketura"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 7,
+      "cita_biblica": "Génesis 21:2"
+    },
+    {
+      "pregunta": "¿Qué don del Espíritu recibieron los apóstoles en Pentecostés?",
+      "opciones": [
+        "Sabiduría",
+        "Hablar en lenguas",
+        "Sanidad",
+        "Profecía"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 8,
+      "cita_biblica": "Hechos 2:4"
+    },
+    {
+      "pregunta": "¿Cuántos hombres vio Ezequiel en la visión del valle?",
+      "opciones": [
+        "Miles",
+        "Innumerables",
+        "Muchos",
+        "No se da número"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 8,
+      "cita_biblica": "Ezequiel 37"
+    },
+    {
+      "pregunta": "¿Quién fue el rey que destruyó los altares de Baal?",
+      "opciones": [
+        "Josías",
+        "Ezequías",
+        "Jehú",
+        "Varios"
+      ],
+      "respuesta_correcta": 3,
+      "nivel": 9,
+      "cita_biblica": "2 Reyes 10, 18, 23"
+    },
+    {
+      "pregunta": "¿En qué libro está la historia de Ester?",
+      "opciones": [
+        "Nehemías",
+        "Ester",
+        "Esdras",
+        "Crónicas"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 9,
+      "cita_biblica": "Ester"
+    },
+    {
+      "pregunta": "¿Qué rey persa permitió reconstruir el templo?",
+      "opciones": [
+        "Nabucodonosor",
+        "Ciro",
+        "Darío",
+        "Artajerjes"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 10,
+      "cita_biblica": "Esdras 1"
+    },
+    {
+      "pregunta": "¿Cuántos años tenía Enoc cuando fue llevado?",
+      "opciones": [
+        "300",
+        "365",
+        "400",
+        "500"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 10,
+      "cita_biblica": "Génesis 5:23"
+    },
+    {
+      "pregunta": "¿Quién fue el profeta que profetizó en el exilio babilónico?",
+      "opciones": [
+        "Jeremías",
+        "Ezequiel",
+        "Daniel",
+        "Isaías"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 11,
+      "cita_biblica": "Ezequiel 1:1"
+    },
+    {
+      "pregunta": "¿Qué ofrenda dio la viuda que Jesús alabó?",
+      "opciones": [
+        "2 monedas",
+        "Una moneda",
+        "Todo lo que tenía",
+        "2 blancas"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 11,
+      "cita_biblica": "Marcos 12:42"
+    },
+    {
+      "pregunta": "¿En qué ciudad Pablo predicó en el Areópago?",
+      "opciones": [
+        "Corinto",
+        "Éfeso",
+        "Atenas",
+        "Roma"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 12,
+      "cita_biblica": "Hechos 17:22"
+    },
+    {
+      "pregunta": "¿Quién fue el sobrino de Abraham?",
+      "opciones": [
+        "Isaac",
+        "Lot",
+        "Nacor",
+        "Ismael"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 12,
+      "cita_biblica": "Génesis 12:5"
+    },
+    {
+      "pregunta": "¿Cuántos hijos tuvo Job después de sus pruebas?",
+      "opciones": [
+        "7",
+        "10",
+        "12",
+        "14"
+      ],
+      "respuesta_correcta": 3,
+      "nivel": 13,
+      "cita_biblica": "Job 42:13"
+    },
+    {
+      "pregunta": "¿Qué rey tuvo lepra?",
+      "opciones": [
+        "David",
+        "Salomón",
+        "Uzías",
+        "Ezequías"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 13,
+      "cita_biblica": "2 Crónicas 26:19"
+    },
+    {
+      "pregunta": "¿Quién fue el escriba que leyó la ley a Esdras?",
+      "opciones": [
+        "Nehemías",
+        "Los levitas",
+        "Esdras mismo",
+        "El pueblo"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 14,
+      "cita_biblica": "Nehemías 8"
+    },
+    {
+      "pregunta": "¿En qué libro está 'El Señor es mi pastor'?",
+      "opciones": [
+        "Proverbios",
+        "Salmos 23",
+        "Isaías",
+        "Ezequiel"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 14,
+      "cita_biblica": "Salmos 23:1"
+    },
+    {
+      "pregunta": "¿Cuántas veces oró Jesús en Getsemaní?",
+      "opciones": [
+        "1",
+        "2",
+        "3",
+        "Varias"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 15,
+      "cita_biblica": "Mateo 26:36-44"
+    },
+    {
+      "pregunta": "¿Quién fue el primer discípulo llamado por Jesús?",
+      "opciones": [
+        "Pedro",
+        "Andrés",
+        "Juan",
+        "Felipe"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 15,
+      "cita_biblica": "Juan 1:40"
+    },
+    {
+      "pregunta": "¿Qué significa 'Hosanna'?",
+      "opciones": [
+        "Gloria",
+        "Sálvanos ahora",
+        "Aleluya",
+        "Amén"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 1,
+      "cita_biblica": "Mateo 21:9"
+    },
+    {
+      "pregunta": "¿Quién fue el rey que escribió Eclesiastés?",
+      "opciones": [
+        "David",
+        "Salomón",
+        "Ezequías",
+        "Josías"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 2,
+      "cita_biblica": "Eclesiastés 1:1"
+    },
+    {
+      "pregunta": "¿En qué ciudad vivía Lázaro cuando Jesús lo resucitó?",
+      "opciones": [
+        "Betania",
+        "Belén",
+        "Nazaret",
+        "Caná"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 3,
+      "cita_biblica": "Juan 11"
+    },
+    {
+      "pregunta": "¿Cuántos eran los hombres que llevaron al paralítico al techo?",
+      "opciones": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 4,
+      "cita_biblica": "Marcos 2:3"
+    },
+    {
+      "pregunta": "¿Qué persona del AT fue transfigurada con Jesús?",
+      "opciones": [
+        "Enoc",
+        "Elías y Moisés",
+        "David",
+        "Abraham"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 5,
+      "cita_biblica": "Mateo 17:3"
+    },
+    {
+      "pregunta": "¿Quién fue el rey que consultó a la bruja de Endor?",
+      "opciones": [
+        "David",
+        "Salomón",
+        "Saúl",
+        "Roboam"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 6,
+      "cita_biblica": "1 Samuel 28"
+    },
+    {
+      "pregunta": "¿En qué río fue bautizado el eunuco etíope?",
+      "opciones": [
+        "Jordán",
+        "Un camino con agua",
+        "No se dice",
+        "Nilo"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 7,
+      "cita_biblica": "Hechos 8:36"
+    },
+    {
+      "pregunta": "¿Cuántas veces gritó Jesús en la cruz 'Dios mío'?",
+      "opciones": [
+        "1",
+        "2",
+        "3",
+        "No se registra"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 8,
+      "cita_biblica": "Mateo 27:46"
+    },
+    {
+      "pregunta": "¿Qué alimento pidió el hijo pródigo cuando volvió?",
+      "opciones": [
+        "Pan",
+        "Lo que comían los cerdos",
+        "No pidió",
+        "Comida del padre"
+      ],
+      "respuesta_correcta": 3,
+      "nivel": 9,
+      "cita_biblica": "Lucas 15"
+    },
+    {
+      "pregunta": "¿Quién fue el padre de Jacob?",
+      "opciones": [
+        "Abraham",
+        "Isaac",
+        "Esau",
+        "Nacor"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 10,
+      "cita_biblica": "Génesis 25:26"
+    },
+    {
+      "pregunta": "¿Qué libro sigue a Deuteronomio?",
+      "opciones": [
+        "Josué",
+        "Jueces",
+        "Rut",
+        "1 Samuel"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 11,
+      "cita_biblica": "Canon"
+    },
+    {
+      "pregunta": "¿Cuántos reyes magos visitaron a Jesús según la tradición?",
+      "opciones": [
+        "2",
+        "3",
+        "4",
+        "No se especifica"
+      ],
+      "respuesta_correcta": 3,
+      "nivel": 12,
+      "cita_biblica": "Mateo 2:1"
+    },
+    {
+      "pregunta": "¿Quién fue el profeta que dijo 'He aquí el Cordero de Dios'?",
+      "opciones": [
+        "Pedro",
+        "Juan el Bautista",
+        "Andrés",
+        "Felipe"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 13,
+      "cita_biblica": "Juan 1:29"
+    },
+    {
+      "pregunta": "¿En qué ciudad nació el apóstol Pablo?",
+      "opciones": [
+        "Tarso",
+        "Jerusalén",
+        "Antioquía",
+        "Damasco"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 14,
+      "cita_biblica": "Hechos 21:39"
+    },
+    {
+      "pregunta": "¿Qué apóstol era publicano antes de seguir a Jesús?",
+      "opciones": [
+        "Leví/Mateo",
+        "Simón",
+        "Judas",
+        "Tadeo"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 15,
+      "cita_biblica": "Mateo 9:9"
+    },
+    {
+      "pregunta": "¿Quién fue la madre de Samuel?",
+      "opciones": [
+        "Raquel",
+        "Ana",
+        "Ester",
+        "Rut"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 1,
+      "cita_biblica": "1 Samuel 1"
+    },
+    {
+      "pregunta": "¿En qué libro está la parábola del buen samaritano?",
+      "opciones": [
+        "Mateo",
+        "Marcos",
+        "Lucas",
+        "Juan"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 2,
+      "cita_biblica": "Lucas 10:25-37"
+    },
+    {
+      "pregunta": "¿Qué rey desafió a los dioses de Babilonia?",
+      "opciones": [
+        "Ciro",
+        "Darío",
+        "Nabucodonosor",
+        "Belsasar"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 3,
+      "cita_biblica": "Daniel 3"
+    },
+    {
+      "pregunta": "¿Cuántos hombres tuvo Gedeón para luchar?",
+      "opciones": [
+        "300",
+        "32.000",
+        "10.000",
+        "1.000"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 4,
+      "cita_biblica": "Jueces 7"
+    },
+    {
+      "pregunta": "¿Qué instrumento tocaba David?",
+      "opciones": [
+        "Flauta",
+        "Arpa",
+        "Lira",
+        "Cítara"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 5,
+      "cita_biblica": "1 Samuel 16:23"
+    },
+    {
+      "pregunta": "¿Quién fue el profeta que sanó a Naamán?",
+      "opciones": [
+        "Elías",
+        "Eliseo",
+        "Samuel",
+        "Natán"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 6,
+      "cita_biblica": "2 Reyes 5"
+    },
+    {
+      "pregunta": "¿En qué ciudad predicó Pablo y fundó iglesias?",
+      "opciones": [
+        "Solo Roma",
+        "Corinto y Éfeso",
+        "Varias ciudades",
+        "Solo Jerusalén"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 7,
+      "cita_biblica": "Hechos"
+    },
+    {
+      "pregunta": "¿Cuántos hermanos tenía José?",
+      "opciones": [
+        "10",
+        "11",
+        "12",
+        "9"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 8,
+      "cita_biblica": "Génesis 37"
+    },
+    {
+      "pregunta": "¿Qué rey hizo oro como piedras en Jerusalén?",
+      "opciones": [
+        "David",
+        "Salomón",
+        "Ezequías",
+        "Josías"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 9,
+      "cita_biblica": "2 Crónicas 1:15"
+    },
+    {
+      "pregunta": "¿Quién fue el primer rey de la dinastía davídica?",
+      "opciones": [
+        "Saúl",
+        "David",
+        "Salomón",
+        "Roboam"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 10,
+      "cita_biblica": "2 Samuel 5"
+    },
+    {
+      "pregunta": "¿En qué montaña Abraham iba a sacrificar a Isaac?",
+      "opciones": [
+        "Sinaí",
+        "Moria",
+        "Carmelo",
+        "Tabor"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 11,
+      "cita_biblica": "Génesis 22:2"
+    },
+    {
+      "pregunta": "¿Qué apóstol reemplazó a Judas?",
+      "opciones": [
+        "Pablo",
+        "Matías",
+        "Bernabé",
+        "Timoteo"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 12,
+      "cita_biblica": "Hechos 1:26"
+    },
+    {
+      "pregunta": "¿Cuántos años tenía Abraham cuando nació Isaac?",
+      "opciones": [
+        "90",
+        "100",
+        "120",
+        "99"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 13,
+      "cita_biblica": "Génesis 21:5"
+    },
+    {
+      "pregunta": "¿Quién fue la madre de Salomón?",
+      "opciones": [
+        "Mical",
+        "Betsabé",
+        "Abigail",
+        "Ahinoam"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 14,
+      "cita_biblica": "2 Samuel 12:24"
+    },
+    {
+      "pregunta": "¿Qué ave alimentó a Elías en el arroyo?",
+      "opciones": [
+        "Paloma",
+        "Cuervos",
+        "Águila",
+        "Golondrina"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 15,
+      "cita_biblica": "1 Reyes 17:6"
+    },
+    {
+      "pregunta": "¿Quién escribió la carta a los Romanos?",
+      "opciones": [
+        "Pedro",
+        "Pablo",
+        "Juan",
+        "Santiago"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 1,
+      "cita_biblica": "Romanos 1:1"
+    },
+    {
+      "pregunta": "¿Cuántos capítulos tiene el libro de Génesis?",
+      "opciones": [
+        "40",
+        "50",
+        "60",
+        "45"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 2,
+      "cita_biblica": "Génesis"
+    },
+    {
+      "pregunta": "¿Quién fue el rey que vio la escritura en la pared?",
+      "opciones": [
+        "Nabucodonosor",
+        "Belsasar",
+        "Darío",
+        "Ciro"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 3,
+      "cita_biblica": "Daniel 5"
+    },
+    {
+      "pregunta": "¿Qué significa 'Biblia'?",
+      "opciones": [
+        "Palabra",
+        "Libros",
+        "Sagrado",
+        "Historia"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 4,
+      "cita_biblica": "Etimología"
+    },
+    {
+      "pregunta": "¿Quién fue el padre de Noé?",
+      "opciones": [
+        "Enoc",
+        "Lamec",
+        "Matusalén",
+        "Jared"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 5,
+      "cita_biblica": "Génesis 5:28"
+    },
+    {
+      "pregunta": "¿En qué libro está la historia de Cornelio?",
+      "opciones": [
+        "Mateo",
+        "Hechos",
+        "Romanos",
+        "Gálatas"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 6,
+      "cita_biblica": "Hechos 10"
+    },
+    {
+      "pregunta": "¿Cuántas veces vio Jesús a Pedro después de resucitar?",
+      "opciones": [
+        "No se especifica",
+        "3",
+        "2",
+        "Varias"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 7,
+      "cita_biblica": "Juan 21"
+    },
+    {
+      "pregunta": "¿Quién fue el rey que no quitó los altares altos?",
+      "opciones": [
+        "David",
+        "Salomón",
+        "Ezequías",
+        "Varios"
+      ],
+      "respuesta_correcta": 3,
+      "nivel": 8,
+      "cita_biblica": "1 Reyes"
+    },
+    {
+      "pregunta": "¿Qué mujer dejó su tierra por su suegra?",
+      "opciones": [
+        "Raquel",
+        "Rut",
+        "Ester",
+        "Rebeca"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 9,
+      "cita_biblica": "Rut 1"
+    },
+    {
+      "pregunta": "¿Cuántas veces se menciona 'amor' en 1 Juan?",
+      "opciones": [
+        "Muchas",
+        "Más de 30",
+        "Variable",
+        "Frecuente"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 10,
+      "cita_biblica": "1 Juan"
+    },
+    {
+      "pregunta": "¿Quién fue el padre de Ismael?",
+      "opciones": [
+        "Abraham",
+        "Isaac",
+        "Jacob",
+        "Lot"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 11,
+      "cita_biblica": "Génesis 16:15"
+    },
+    {
+      "pregunta": "¿En qué ciudad estaba el templo de Dios?",
+      "opciones": [
+        "Belén",
+        "Jerusalén",
+        "Nazaret",
+        "Samaria"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 12,
+      "cita_biblica": "1 Reyes 6"
+    },
+    {
+      "pregunta": "¿Qué profeta fue llamado en su juventud?",
+      "opciones": [
+        "Isaías",
+        "Jeremías",
+        "Ezequiel",
+        "Daniel"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 13,
+      "cita_biblica": "Jeremías 1:6"
+    },
+    {
+      "pregunta": "¿Cuántos años reinó David?",
+      "opciones": [
+        "30",
+        "40",
+        "33",
+        "50"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 14,
+      "cita_biblica": "1 Reyes 2:11"
+    },
+    {
+      "pregunta": "¿Quién fue el rey que quemó incienso en el templo?",
+      "opciones": [
+        "Uzías",
+        "Ezequías",
+        "Manasés",
+        "Varios"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 15,
+      "cita_biblica": "2 Crónicas 26"
+    },
+    {
+      "pregunta": "¿Qué fruto del Espíritu sigue al amor en Gálatas 5?",
+      "opciones": [
+        "Gozo",
+        "Paz",
+        "Paciencia",
+        "Paz"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 1,
+      "cita_biblica": "Gálatas 5:22"
+    },
+    {
+      "pregunta": "¿Quién fue el profeta que vio huesos secos?",
+      "opciones": [
+        "Daniel",
+        "Ezequiel",
+        "Isaías",
+        "Jeremías"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 2,
+      "cita_biblica": "Ezequiel 37"
+    },
+    {
+      "pregunta": "¿Cuántos hijos tuvo Lot?",
+      "opciones": [
+        "2 hijas",
+        "Pocos",
+        "No se detalla",
+        "Varios"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 3,
+      "cita_biblica": "Génesis 19"
+    },
+    {
+      "pregunta": "¿En qué río Ezequiel tuvo visiones?",
+      "opciones": [
+        "Jordán",
+        "Quebar",
+        "Éufrates",
+        "Nilo"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 4,
+      "cita_biblica": "Ezequiel 1:1"
+    },
+    {
+      "pregunta": "¿Quién fue el rey que buscó a David para matarlo?",
+      "opciones": [
+        "Absalón",
+        "Saúl",
+        "Ish-boset",
+        "Joab"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 5,
+      "cita_biblica": "1 Samuel 18"
+    },
+    {
+      "pregunta": "¿Qué libro viene después de Apocalipsis?",
+      "opciones": [
+        "Ninguno, es el último",
+        "Judas",
+        "No hay más",
+        "Es el final"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 6,
+      "cita_biblica": "Biblia"
+    },
+    {
+      "pregunta": "¿Cuántas cartas escribió Juan?",
+      "opciones": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "respuesta_correcta": 3,
+      "nivel": 7,
+      "cita_biblica": "1, 2, 3 Juan + Apocalipsis"
+    },
+    {
+      "pregunta": "¿Quién fue el padre de Moisés?",
+      "opciones": [
+        "Amram",
+        "Aarón",
+        "Leví",
+        "Ceoré"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 8,
+      "cita_biblica": "Éxodo 6:20"
+    },
+    {
+      "pregunta": "¿En qué lugar Jesús dio el Sermón del Monte?",
+      "opciones": [
+        "Jerusalén",
+        "Un monte en Galilea",
+        "Jordán",
+        "Nazaret"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 9,
+      "cita_biblica": "Mateo 5:1"
+    },
+    {
+      "pregunta": "¿Qué tribu no recibió tierra en Canaán?",
+      "opciones": [
+        "Leví",
+        "Judá",
+        "Benjamín",
+        "Efraín"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 10,
+      "cita_biblica": "Josué 13:33"
+    },
+    {
+      "pregunta": "¿Quién fue el rey que tuvo 300 concubinas?",
+      "opciones": [
+        "David",
+        "Salomón",
+        "Roboam",
+        "Acab"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 11,
+      "cita_biblica": "1 Reyes 11:3"
+    },
+    {
+      "pregunta": "¿Cuántos años tenía Josué cuando murió?",
+      "opciones": [
+        "100",
+        "110",
+        "120",
+        "90"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 12,
+      "cita_biblica": "Josué 24:29"
+    },
+    {
+      "pregunta": "¿Qué significa 'Mesías'?",
+      "opciones": [
+        "Rey",
+        "Ungido",
+        "Salvador",
+        "Profeta"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 13,
+      "cita_biblica": "Griego/Hebreo"
+    },
+    {
+      "pregunta": "¿Quién fue el profeta que profetizó el nacimiento de Juan?",
+      "opciones": [
+        "Isaías",
+        "Gabriel",
+        "Un ángel",
+        "Malaquías"
+      ],
+      "respuesta_correcta": 2,
+      "nivel": 14,
+      "cita_biblica": "Lucas 1:13"
+    },
+    {
+      "pregunta": "¿En qué libro está 'No sólo de pan vivirá el hombre'?",
+      "opciones": [
+        "Éxodo",
+        "Deuteronomio",
+        "Levítico",
+        "Números"
+      ],
+      "respuesta_correcta": 1,
+      "nivel": 15,
+      "cita_biblica": "Deuteronomio 8:3"
+    },
+    {
+      "pregunta": "Completa el versículo: \"Porque de tal manera amó Dios al mundo, que ha dado a su ______ unigénito\"",
+      "opciones": [
+        "Hijo",
+        "Ángel",
+        "Profeta",
+        "Siervo"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 1,
+      "cita_biblica": "Juan 3:16 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Jehová es mi ______; nada me faltará\"",
+      "opciones": [
+        "Pastor",
+        "Roca",
+        "Rey",
+        "Escudo"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 1,
+      "cita_biblica": "Salmos 23:1 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Todo lo puedo en ______ que me fortalece\"",
+      "opciones": [
+        "Cristo",
+        "Dios",
+        "el Espíritu",
+        "el Señor"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 1,
+      "cita_biblica": "Filipenses 4:13 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Yo soy el camino, y la verdad, y la ______\"",
+      "opciones": [
+        "Vida",
+        "Luz",
+        "Puerta",
+        "Paz"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 1,
+      "cita_biblica": "Juan 14:6 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"En el principio creó Dios los ______ y la tierra\"",
+      "opciones": [
+        "cielos",
+        "astros",
+        "mares",
+        "pueblos"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 1,
+      "cita_biblica": "Génesis 1:1 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Lámpara es a mis pies tu ______, y lumbrera a mi camino\"",
+      "opciones": [
+        "palabra",
+        "luz",
+        "ley",
+        "verdad"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 1,
+      "cita_biblica": "Salmos 119:105 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Porque la paga del pecado es ______\"",
+      "opciones": [
+        "muerte",
+        "castigo",
+        "separación",
+        "dolor"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 2,
+      "cita_biblica": "Romanos 6:23 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Mas la dádiva de Dios es vida ______ en Cristo Jesús Señor nuestro\"",
+      "opciones": [
+        "eterna",
+        "abundante",
+        "plena",
+        "santa"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 2,
+      "cita_biblica": "Romanos 6:23 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"El Señor es mi ______ y mi salvación; ¿de quién temeré?\"",
+      "opciones": [
+        "luz",
+        "roca",
+        "fortaleza",
+        "escudo"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 2,
+      "cita_biblica": "Salmos 27:1 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Clama a mí, y yo te ______\"",
+      "opciones": [
+        "responderé",
+        "sanaré",
+        "salvaré",
+        "ayudaré"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 2,
+      "cita_biblica": "Jeremías 33:3 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Bienaventurados los ______ de corazón, porque ellos verán a Dios\"",
+      "opciones": [
+        "limpios",
+        "puros",
+        "humildes",
+        "mansos"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 2,
+      "cita_biblica": "Mateo 5:8 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Porque por gracia sois ______ por medio de la fe\"",
+      "opciones": [
+        "salvos",
+        "justos",
+        "santos",
+        "benditos"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 2,
+      "cita_biblica": "Efesios 2:8 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"El temor de Jehová es el principio de la ______\"",
+      "opciones": [
+        "sabiduría",
+        "ciencia",
+        "justicia",
+        "vida"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 3,
+      "cita_biblica": "Proverbios 1:7 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Buscad primeramente el reino de ______ y su justicia\"",
+      "opciones": [
+        "Dios",
+        "los cielos",
+        "Cristo",
+        "los cielos de Dios"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 3,
+      "cita_biblica": "Mateo 6:33 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Y conoceréis la verdad, y la verdad os hará ______\"",
+      "opciones": [
+        "libres",
+        "fuertes",
+        "sabios",
+        "justos"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 3,
+      "cita_biblica": "Juan 8:32 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"El Señor es mi pastor; nada me ______\"",
+      "opciones": [
+        "faltará",
+        "angustiará",
+        "asustará",
+        "dañará"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 3,
+      "cita_biblica": "Salmos 23:1 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Estad quietos, y conoced que yo soy ______\"",
+      "opciones": [
+        "Dios",
+        "Jehová",
+        "el Señor",
+        "Santo"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 3,
+      "cita_biblica": "Salmos 46:10 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Mas buscad primeramente el reino de Dios y su ______\"",
+      "opciones": [
+        "justicia",
+        "misericordia",
+        "voluntad",
+        "gracia"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 3,
+      "cita_biblica": "Mateo 6:33 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"No temas, porque yo estoy ______\"",
+      "opciones": [
+        "contigo",
+        "cerca",
+        "a tu lado",
+        "delante"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 4,
+      "cita_biblica": "Isaías 41:10 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Echando toda vuestra ansiedad sobre él, porque él tiene ______ de vosotros\"",
+      "opciones": [
+        "cuidado",
+        "misericordia",
+        "amor",
+        "gracia"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 4,
+      "cita_biblica": "1 Pedro 5:7 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Bienaventurados los que lloran, porque ellos recibirán ______\"",
+      "opciones": [
+        "consolación",
+        "gozo",
+        "paz",
+        "esperanza"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 4,
+      "cita_biblica": "Mateo 5:4 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"El ladrón no viene sino para hurtar y matar y ______\"",
+      "opciones": [
+        "destruir",
+        "confundir",
+        "engañar",
+        "oprimir"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 4,
+      "cita_biblica": "Juan 10:10 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"De tal manera amó Dios al mundo, que ha dado a su Hijo ______\"",
+      "opciones": [
+        "unigénito",
+        "amado",
+        "santo",
+        "perfecto"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 4,
+      "cita_biblica": "Juan 3:16 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Pero los que esperan a Jehová tendrán nuevas ______\"",
+      "opciones": [
+        "fuerzas",
+        "misericordias",
+        "victorias",
+        "bendiciones"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 4,
+      "cita_biblica": "Isaías 40:31 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"De la abundancia del corazón habla la ______\"",
+      "opciones": [
+        "boca",
+        "lengua",
+        "mente",
+        "persona"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 5,
+      "cita_biblica": "Mateo 12:34 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"El justo por la fe ______\"",
+      "opciones": [
+        "vivirá",
+        "andará",
+        "triunfará",
+        "vencerá"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 5,
+      "cita_biblica": "Romanos 1:17 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Sed santos, porque yo soy ______\"",
+      "opciones": [
+        "santo",
+        "justo",
+        "bueno",
+        "perfecto"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 5,
+      "cita_biblica": "1 Pedro 1:16 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Honra a tu padre y a tu ______\"",
+      "opciones": [
+        "madre",
+        "familia",
+        "hermano",
+        "prójimo"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 5,
+      "cita_biblica": "Éxodo 20:12 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"No te dejaré, ni te ______\"",
+      "opciones": [
+        "desampararé",
+        "olvidaré",
+        "abandonaré",
+        "apartaré"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 5,
+      "cita_biblica": "Hebreos 13:5 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Amarás a tu prójimo como a ______\"",
+      "opciones": [
+        "ti mismo",
+        "tu hermano",
+        "tu familia",
+        "tu amigo"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 5,
+      "cita_biblica": "Mateo 22:39 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Sea vuestra palabra siempre con ______, sazonada con sal\"",
+      "opciones": [
+        "gracia",
+        "verdad",
+        "amor",
+        "sabiduría"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 6,
+      "cita_biblica": "Colosenses 4:6 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Porque no nos ha dado Dios espíritu de cobardía, sino de poder, de amor y de ______\"",
+      "opciones": [
+        "dominio propio",
+        "sabiduría",
+        "fe",
+        "paciencia"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 6,
+      "cita_biblica": "2 Timoteo 1:7 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Bienaventurados los pacificadores, porque ellos serán llamados ______ de Dios\"",
+      "opciones": [
+        "hijos",
+        "siervos",
+        "amigos",
+        "pueblo"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 6,
+      "cita_biblica": "Mateo 5:9 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Si Dios es por nosotros, ¿quién contra ______?\"",
+      "opciones": [
+        "nosotros",
+        "su pueblo",
+        "sus hijos",
+        "la iglesia"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 6,
+      "cita_biblica": "Romanos 8:31 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Porque donde esté vuestro tesoro, allí estará también vuestro ______\"",
+      "opciones": [
+        "corazón",
+        "pensamiento",
+        "alma",
+        "camino"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 6,
+      "cita_biblica": "Mateo 6:21 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Pedid, y se os ______; buscad, y hallaréis\"",
+      "opciones": [
+        "dará",
+        "abrirá",
+        "multiplicará",
+        "responderá"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 6,
+      "cita_biblica": "Mateo 7:7 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"De modo que si alguno está en Cristo, nueva ______ es\"",
+      "opciones": [
+        "criatura",
+        "vida",
+        "persona",
+        "creación"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 7,
+      "cita_biblica": "2 Corintios 5:17 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Porque el Hijo del Hombre vino a buscar y a ______ lo que se había perdido\"",
+      "opciones": [
+        "salvar",
+        "restaurar",
+        "sanar",
+        "levantar"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 7,
+      "cita_biblica": "Lucas 19:10 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Y el Verbo se hizo ______, y habitó entre nosotros\"",
+      "opciones": [
+        "carne",
+        "hombre",
+        "luz",
+        "siervo"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 7,
+      "cita_biblica": "Juan 1:14 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Velad y ______, para que no entréis en tentación\"",
+      "opciones": [
+        "orad",
+        "ayunad",
+        "confesad",
+        "creed"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 7,
+      "cita_biblica": "Mateo 26:41 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Y recibiréis poder, cuando haya venido sobre vosotros el ______ Santo\"",
+      "opciones": [
+        "Espíritu",
+        "Fuego",
+        "Señor",
+        "ángel"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 7,
+      "cita_biblica": "Hechos 1:8 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Haya, pues, en vosotros este sentir que hubo también en ______\"",
+      "opciones": [
+        "Cristo Jesús",
+        "el Señor",
+        "Dios",
+        "el Hijo"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 7,
+      "cita_biblica": "Filipenses 2:5 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Mas el fruto del Espíritu es amor, gozo, ______, paciencia...\"",
+      "opciones": [
+        "paz",
+        "fe",
+        "bondad",
+        "templanza"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 8,
+      "cita_biblica": "Gálatas 5:22 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"No os conforméis a este siglo, sino transformaos por medio de la renovación de vuestro ______\"",
+      "opciones": [
+        "entendimiento",
+        "espíritu",
+        "corazón",
+        "pensamiento"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 8,
+      "cita_biblica": "Romanos 12:2 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"El que habita al abrigo del Altísimo morará bajo la sombra del ______\"",
+      "opciones": [
+        "Omnipotente",
+        "Santo",
+        "Eterno",
+        "Altísimo"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 8,
+      "cita_biblica": "Salmos 91:1 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"Mejor es obedecer que ______\"",
+      "opciones": [
+        "sacrificar",
+        "prometer",
+        "ofrendar",
+        "enseñar"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 8,
+      "cita_biblica": "1 Samuel 15:22 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"En el mundo tendréis aflicción; pero confiad, yo he ______ al mundo\"",
+      "opciones": [
+        "vencido",
+        "juzgado",
+        "cambiado",
+        "salvado"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 8,
+      "cita_biblica": "Juan 16:33 (Reina-Valera)"
+    },
+    {
+      "pregunta": "Completa: \"El cielo y la tierra pasarán, pero mis ______ no pasarán\"",
+      "opciones": [
+        "palabras",
+        "mandamientos",
+        "obras",
+        "leyes"
+      ],
+      "respuesta_correcta": 0,
+      "nivel": 8,
+      "cita_biblica": "Mateo 24:35 (Reina-Valera)"
+    }
+  ]
+}

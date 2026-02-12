@@ -1,0 +1,571 @@
+#:kivy 2.0.0
+#:import FadeTransition kivy.uix.screenmanager.FadeTransition
+#:import SlideTransition kivy.uix.screenmanager.SlideTransition
+#:import Animation kivy.animation.Animation
+#:import FloatLayout kivy.uix.floatlayout.FloatLayout
+
+<SplashScreen>:
+    canvas.before:
+        Color:
+            rgba: 0.02, 0.02, 0.08, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+    MDBoxLayout:
+        orientation: "vertical"
+        padding: "20dp", "16dp"
+        spacing: "15dp"
+        md_bg_color: 0, 0, 0, 0
+
+        MDLabel:
+            text: "LOADING"
+            halign: "center"
+            font_style: "H2"
+            theme_text_color: "Custom"
+            text_color: 0.2, 0.8, 1, 1
+            size_hint_y: None
+            height: "60dp"
+
+        MDLabel:
+            text: "¿QUIÉN QUIERE SER MILLONARIO? - BÍBLICO"
+            halign: "center"
+            font_style: "Subtitle1"
+            theme_text_color: "Custom"
+            text_color: 1, 1, 1, 0.8
+            size_hint_y: None
+            height: "36dp"
+            text_size: self.width - dp(24), None
+
+        MDBoxLayout:
+            orientation: "vertical"
+            size_hint_y: None
+            height: "100dp"
+            padding: "8dp"
+            spacing: "8dp"
+            pos_hint: {"center_x": 0.5}
+
+            MDBoxLayout:
+                orientation: "horizontal"
+                size_hint_y: None
+                height: "28dp"
+                spacing: "8dp"
+
+                MDLabel:
+                    text: "Cargando..."
+                    halign: "center"
+                    theme_text_color: "Custom"
+                    text_color: 1, 1, 1, 0.9
+
+                MDLabel:
+                    id: loading_percent
+                    text: "0%"
+                    size_hint_x: None
+                    width: "48dp"
+                    halign: "right"
+                    theme_text_color: "Custom"
+                    text_color: 0.2, 0.8, 1, 1
+
+            MDProgressBar:
+                id: progress_bar
+                max: 100
+                value: 0
+                size_hint_x: 0.85
+                pos_hint: {"center_x": 0.5}
+
+        MDLabel:
+            id: versiculo_text
+            text: "Versículo bíblico aparecerá aquí"
+            halign: "center"
+            valign: "middle"
+            theme_text_color: "Custom"
+            text_color: 1, 1, 1, 0.9
+            font_style: "Body1"
+            text_size: self.width - dp(24), None
+            size_hint_y: 0.35
+
+        MDLabel:
+            text: "Presiona la pantalla para empezar cuando termine la carga"
+            halign: "center"
+            font_style: "Caption"
+            theme_text_color: "Custom"
+            text_color: 1, 1, 1, 0.6
+            size_hint_y: None
+            height: "32dp"
+
+<MenuScreen>:
+    canvas.before:
+        Color:
+            rgba: 0.1, 0.1, 0.1, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+    MDBoxLayout:
+        orientation: 'vertical'
+        padding: "20dp", "16dp"
+        spacing: "16dp"
+        md_bg_color: 0.1, 0.1, 0.1, 1
+
+        MDLabel:
+            text: "¿QUIÉN QUIERE SER\nMILLONARIO?"
+            halign: "center"
+            font_style: "H3"
+            theme_text_color: "Custom"
+            text_color: 1, 0.84, 0, 1
+            size_hint_y: None
+            height: "80dp"
+            text_size: self.width - dp(24), None
+
+        MDLabel:
+            text: "BÍBLICO"
+            halign: "center"
+            font_style: "H5"
+            theme_text_color: "Custom"
+            text_color: 1, 1, 1, 0.9
+            size_hint_y: None
+            height: "40dp"
+
+        MDBoxLayout:
+            orientation: 'vertical'
+            spacing: "16dp"
+            size_hint_y: None
+            height: root.height * 0.38
+            size_hint_x: 0.9
+            pos_hint: {"center_x": 0.5}
+
+            MDRaisedButton:
+                text: "INICIAR JUEGO"
+                font_size: "18sp"
+                size_hint_y: None
+                height: "56dp"
+                md_bg_color: 0.2, 0.6, 0.2, 1
+                on_release: root.iniciar_juego()
+
+            MDRaisedButton:
+                text: "INSTRUCCIONES"
+                font_size: "16sp"
+                size_hint_y: None
+                height: "48dp"
+                md_bg_color: 0.2, 0.4, 0.6, 1
+                on_release: root.mostrar_instrucciones()
+
+<GameScreen>:
+    canvas.before:
+        # Fondo oscuro azul/púrpura
+        Color:
+            rgba: 0.05, 0.05, 0.2, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+        # Efecto de brillo simulado con círculos semitransparentes
+        Color:
+            rgba: 0.3, 0.2, 0.5, 0.2
+        Ellipse:
+            pos: self.center_x - self.width * 0.4, self.center_y + self.height * 0.1
+            size: self.width * 0.8, self.width * 0.8
+        Color:
+            rgba: 0.4, 0.3, 0.6, 0.15
+        Ellipse:
+            pos: self.center_x - self.width * 0.3, self.center_y + self.height * 0.15
+            size: self.width * 0.6, self.width * 0.6
+
+    FloatLayout:
+        # Botones de ayuda/lifelines (responsive al ancho de pantalla)
+        MDBoxLayout:
+            orientation: 'horizontal'
+            size_hint: None, None
+            size: root.width * 0.52, root.width * 0.14
+            pos_hint: {"x": 0.02, "top": 0.98}
+            spacing: "6dp"
+            padding: "4dp"
+
+            # Comodín 50/50 (ImageButton = imagen clicable)
+            MDCard:
+                size_hint: None, None
+                size: root.width * 0.14, root.width * 0.14
+                md_bg_color: 0.12, 0.12, 0.3, 1
+                radius: [30, 30, 30, 30]
+                elevation: 2
+                ImageButton:
+                    id: comodin_50_50
+                    fit_mode: "contain"
+                    size_hint: 1, 1
+                    on_release: root.usar_comodin("50/50")
+
+            # Comodín público
+            MDCard:
+                size_hint: None, None
+                size: root.width * 0.14, root.width * 0.14
+                md_bg_color: 0.12, 0.12, 0.3, 1
+                radius: [30, 30, 30, 30]
+                elevation: 2
+                ImageButton:
+                    id: comodin_publico
+                    fit_mode: "contain"
+                    size_hint: 1, 1
+                    on_release: root.usar_comodin("publico")
+
+            # Comodín búsqueda bíblica
+            MDCard:
+                size_hint: None, None
+                size: root.width * 0.14, root.width * 0.14
+                md_bg_color: 0.12, 0.12, 0.3, 1
+                radius: [30, 30, 30, 30]
+                elevation: 2
+                ImageButton:
+                    id: comodin_busqueda_biblica
+                    fit_mode: "contain"
+                    size_hint: 1, 1
+                    on_release: root.usar_comodin("busqueda_biblica")
+
+        # Botón de salida (debajo de los lifelines)
+        MDFlatButton:
+            text: "SALIR"
+            size_hint: None, None
+            size: root.width * 0.18, "40dp"
+            pos_hint: {"x": 0.02, "y": 0.82}
+            theme_text_color: "Custom"
+            text_color: 1, 1, 1, 1
+            md_bg_color: 0.2, 0.4, 0.6, 1
+            font_size: "14sp"
+            on_release: app.finalizar_juego(ganador=False)
+
+        # Logo circular con texto alrededor (centro superior) y contador dentro
+        FloatLayout:
+            id: logo_container
+            size_hint: None, None
+            size: root.width * 0.42, root.width * 0.42
+            pos_hint: {"center_x": 0.5, "top": 0.86}
+            canvas:
+                # Círculo exterior con brillo
+                Color:
+                    rgba: 0.5, 0.3, 0.7, 0.5
+                Ellipse:
+                    pos: self.pos[0] + 5, self.pos[1] + 5
+                    size: self.size[0] - 10, self.size[1] - 10
+                # Círculo principal
+                Color:
+                    rgba: 0.1, 0.1, 0.3, 1
+                Ellipse:
+                    pos: self.pos
+                    size: self.size
+                # Diseño central (simplificado)
+                Color:
+                    rgba: 1, 0.84, 0, 1
+                Line:
+                    circle: self.center_x, self.center_y, self.width * 0.15, 0, 360
+                    width: 2
+
+            # Contador de cuenta regresiva dentro del círculo amarillo
+            MDLabel:
+                id: timer_text
+                text: "30"
+                theme_text_color: "Custom"
+                text_color: 1, 0.2, 0.2, 1
+                font_style: "H4"
+                bold: True
+                size_hint: None, None
+                size: root.width * 0.15, root.width * 0.15
+                pos_hint: {"center_x": 0.5, "center_y": 0.5}
+                halign: "center"
+                valign: "middle"
+
+        # Texto del logo "QUIEN QUIERE SER" (arriba del círculo)
+        MDLabel:
+            text: "QUIEN QUIERE SER"
+            theme_text_color: "Custom"
+            text_color: 1, 1, 1, 1
+            font_style: "H6"
+            bold: True
+            size_hint: None, None
+            size: root.width * 0.9, "36dp"
+            pos_hint: {"center_x": 0.5, "top": 0.88}
+            halign: "center"
+            text_size: self.size
+
+        # Texto del logo "MILLONARIO" (debajo del círculo)
+        MDLabel:
+            text: "MILLONARIO"
+            theme_text_color: "Custom"
+            text_color: 1, 1, 1, 1
+            font_style: "H4"
+            bold: True
+            size_hint: None, None
+            size: root.width * 0.9, "44dp"
+            pos_hint: {"center_x": 0.5, "top": 0.66}
+            halign: "center"
+            text_size: self.size
+
+        # Escalera de premios: 15 niveles visibles, sin amontonar (scroll si hace falta)
+        ScrollView:
+            size_hint: None, None
+            size: root.width * 0.24, root.height * 0.62
+            pos_hint: {"right": 0.98, "center_y": 0.5}
+            do_scroll_x: False
+            do_scroll_y: True
+            bar_width: "4dp"
+
+            MDBoxLayout:
+                id: premios_list
+                orientation: 'vertical'
+                spacing: "1dp"
+                padding: "4dp", "6dp"
+                size_hint_y: None
+                adaptive_height: True
+
+        # Área de pregunta (responsive al ancho de pantalla)
+        MDCard:
+            id: pregunta_card
+            size_hint: 0.92, None
+            height: "72dp"
+            pos_hint: {"center_x": 0.5, "center_y": 0.54}
+            md_bg_color: 0.1, 0.1, 0.3, 1
+            elevation: 0
+            radius: [20, 20, 20, 20]
+            canvas.before:
+                Color:
+                    rgba: 1, 1, 1, 1
+                Line:
+                    rounded_rectangle: [self.x, self.y, self.width, self.height, 20]
+                    width: 2
+
+            MDLabel:
+                id: pregunta_text
+                text: "Pregunta aparecerá aquí"
+                halign: "center"
+                valign: "center"
+                theme_text_color: "Custom"
+                text_color: 1, 1, 1, 1
+                font_style: "H6"
+                text_size: self.width - dp(16), None
+                pos_hint: {"center_x": 0.5, "center_y": 0.5}
+
+        # Opciones de respuesta en formato 2x2 (responsive)
+        # Fila superior: A y B
+        MDBoxLayout:
+            orientation: 'horizontal'
+            size_hint: 0.92, None
+            height: "64dp"
+            pos_hint: {"center_x": 0.5, "center_y": 0.38}
+            spacing: "10dp"
+
+            # Opción A
+            MDFlatButton:
+                id: opcion_a_card
+                size_hint_x: 0.5
+                size_hint_y: 1
+                height: "64dp"
+                md_bg_color: 0.1, 0.1, 0.3, 1
+                theme_text_color: "Custom"
+                text_color: 1, 1, 1, 1
+                on_release: root.seleccionar_respuesta(0)
+                canvas.before:
+                    Color:
+                        rgba: 1, 1, 1, 1
+                    Line:
+                        rounded_rectangle: [self.x, self.y, self.width, self.height, 20]
+                        width: 2
+
+                MDBoxLayout:
+                    orientation: 'horizontal'
+                    padding: "10dp"
+                    spacing: "10dp"
+
+                    # Diamante con letra A
+                    MDLabel:
+                        text: "◆"
+                        theme_text_color: "Custom"
+                        text_color: 1, 1, 1, 1
+                        font_style: "H6"
+                        size_hint_x: None
+                        width: "24dp"
+                        halign: "center"
+
+                    MDLabel:
+                        text: "A"
+                        theme_text_color: "Custom"
+                        text_color: 1, 1, 1, 1
+                        font_style: "H6"
+                        size_hint_x: None
+                        width: "18dp"
+                        halign: "center"
+
+                    MDLabel:
+                        id: opcion_a
+                        text: "Opción A"
+                        theme_text_color: "Custom"
+                        text_color: 1, 1, 1, 1
+                        font_style: "Body1"
+                        halign: "left"
+                        text_size: self.width - dp(50), None
+
+            # Opción B
+            MDFlatButton:
+                id: opcion_b_card
+                size_hint_x: 0.5
+                size_hint_y: 1
+                height: "64dp"
+                md_bg_color: 0.1, 0.1, 0.3, 1
+                theme_text_color: "Custom"
+                text_color: 1, 1, 1, 1
+                on_release: root.seleccionar_respuesta(1)
+                canvas.before:
+                    Color:
+                        rgba: 1, 1, 1, 1
+                    Line:
+                        rounded_rectangle: [self.x, self.y, self.width, self.height, 20]
+                        width: 2
+
+                MDBoxLayout:
+                    orientation: 'horizontal'
+                    padding: "10dp"
+                    spacing: "10dp"
+
+                    MDLabel:
+                        text: "◆"
+                        theme_text_color: "Custom"
+                        text_color: 1, 1, 1, 1
+                        font_style: "H6"
+                        size_hint_x: None
+                        width: "24dp"
+                        halign: "center"
+
+                    MDLabel:
+                        text: "B"
+                        theme_text_color: "Custom"
+                        text_color: 1, 1, 1, 1
+                        font_style: "H6"
+                        size_hint_x: None
+                        width: "18dp"
+                        halign: "center"
+
+                    MDLabel:
+                        id: opcion_b
+                        text: "Opción B"
+                        theme_text_color: "Custom"
+                        text_color: 1, 1, 1, 1
+                        font_style: "Body1"
+                        halign: "left"
+                        text_size: self.width - dp(50), None
+
+        # Fila inferior: C y D
+        MDBoxLayout:
+            orientation: 'horizontal'
+            size_hint: 0.92, None
+            height: "64dp"
+            pos_hint: {"center_x": 0.5, "center_y": 0.24}
+            spacing: "10dp"
+
+            # Opción C
+            MDFlatButton:
+                id: opcion_c_card
+                size_hint_x: 0.5
+                size_hint_y: 1
+                height: "64dp"
+                md_bg_color: 0.1, 0.1, 0.3, 1
+                theme_text_color: "Custom"
+                text_color: 1, 1, 1, 1
+                on_release: root.seleccionar_respuesta(2)
+                canvas.before:
+                    Color:
+                        rgba: 1, 1, 1, 1
+                    Line:
+                        rounded_rectangle: [self.x, self.y, self.width, self.height, 20]
+                        width: 2
+
+                MDBoxLayout:
+                    orientation: 'horizontal'
+                    padding: "10dp"
+                    spacing: "10dp"
+
+                    MDLabel:
+                        text: "◆"
+                        theme_text_color: "Custom"
+                        text_color: 1, 1, 1, 1
+                        font_style: "H6"
+                        size_hint_x: None
+                        width: "24dp"
+                        halign: "center"
+
+                    MDLabel:
+                        text: "C"
+                        theme_text_color: "Custom"
+                        text_color: 1, 1, 1, 1
+                        font_style: "H6"
+                        size_hint_x: None
+                        width: "18dp"
+                        halign: "center"
+
+                    MDLabel:
+                        id: opcion_c
+                        text: "Opción C"
+                        theme_text_color: "Custom"
+                        text_color: 1, 1, 1, 1
+                        font_style: "Body1"
+                        halign: "left"
+                        text_size: self.width - dp(50), None
+
+            # Opción D
+            MDFlatButton:
+                id: opcion_d_card
+                size_hint_x: 0.5
+                size_hint_y: 1
+                height: "64dp"
+                md_bg_color: 0.1, 0.1, 0.3, 1
+                theme_text_color: "Custom"
+                text_color: 1, 1, 1, 1
+                on_release: root.seleccionar_respuesta(3)
+                canvas.before:
+                    Color:
+                        rgba: 1, 1, 1, 1
+                    Line:
+                        rounded_rectangle: [self.x, self.y, self.width, self.height, 20]
+                        width: 2
+
+                MDBoxLayout:
+                    orientation: 'horizontal'
+                    padding: "10dp"
+                    spacing: "10dp"
+
+                    MDLabel:
+                        text: "◆"
+                        theme_text_color: "Custom"
+                        text_color: 1, 1, 1, 1
+                        font_style: "H6"
+                        size_hint_x: None
+                        width: "24dp"
+                        halign: "center"
+
+                    MDLabel:
+                        text: "D"
+                        theme_text_color: "Custom"
+                        text_color: 1, 1, 1, 1
+                        font_style: "H6"
+                        size_hint_x: None
+                        width: "18dp"
+                        halign: "center"
+
+                    MDLabel:
+                        id: opcion_d
+                        text: "Opción D"
+                        theme_text_color: "Custom"
+                        text_color: 1, 1, 1, 1
+                        font_style: "Body1"
+                        halign: "left"
+                        text_size: self.width - dp(50), None
+
+        # Contador de pregunta en la esquina superior derecha
+        MDLabel:
+            id: nivel_text
+            text: "0"
+            theme_text_color: "Custom"
+            text_color: 1, 1, 1, 1
+            font_style: "H3"
+            bold: True
+            size_hint: None, None
+            size: root.width * 0.12, root.width * 0.12
+            pos_hint: {"right": 0.98, "top": 0.98}
+            halign: "center"
+            valign: "middle"
+

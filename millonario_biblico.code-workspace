@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "millonario_biblico",
+			"path": "."
+		},
+		{
+			"name": "comodines",
+			"path": "../../Desktop/comodines"
+		},
+		{
+			"name": "audios",
+			"path": "../../Desktop/audios"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,19 @@
+{
+  "dificultad": "variable",
+  "preguntas": [
+    {
+      "pregunta": "¿Cuántos días tardó Dios en crear el mundo?",
+      "opciones": ["3 días", "6 días", "7 días", "40 días"],
+      "respuesta_correcta": 1,
+      "nivel": 1,
+      "cita_biblica": "Génesis 1"
+    },
+    {
+      "pregunta": "¿Cuál fue el primer hombre creado por Dios?",
+      "opciones": ["Noé", "Adán", "Abraham", "Moisés"],
+      "respuesta_correcta": 1,
+      "nivel": 1,
+      "cita_biblica": "Génesis 2:7"
+    }
+  ]
+}
