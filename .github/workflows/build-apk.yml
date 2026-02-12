@@ -23,7 +23,7 @@ jobs:
       - name: Instalar dependencias del sistema
         run: |
           sudo apt-get update
-          sudo apt-get install -y pipx python3-venv build-essential openjdk-17-jdk unzip libffi-dev libssl-dev
+          sudo apt-get install -y pipx python3-venv python3-distutils build-essential openjdk-17-jdk unzip libffi-dev libssl-dev
 
       - name: Instalar Buildozer
         run: |
