@@ -20,17 +20,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Instalar dependencias del sistema
+      - name: Instalar dependencias y Buildozer
         run: |
           sudo apt-get update
           sudo apt-get install -y pipx python3-venv build-essential openjdk-17-jdk unzip libffi-dev libssl-dev
           pipx ensurepath
-          echo "$HOME/.local/bin" >> $GITHUB_PATH
-          echo "HOME=$HOME" >> $GITHUB_ENV
-
-      - name: Instalar Buildozer
-        run: |
-          $HOME/.local/bin/pipx install buildozer
+          export PATH="$HOME/.local/bin:$PATH"
+          pipx install buildozer
           echo "PATH=$HOME/.local/bin:$PATH" >> $GITHUB_ENV
 
       - name: Generar APK

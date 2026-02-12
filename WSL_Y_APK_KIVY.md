@@ -9,7 +9,7 @@ Cuando PowerShell dice **"El término 'wsl' no se reconoce"**, significa que Win
 - **Windows 10** versión 2004 o superior (Build 19041 o mayor), o **Windows 11**.
 - Para ver tu versión: **Configuración → Sistema → Acerca de** (o escribe `winver` en Inicio).
 
-Si tienes una versión antigua de Windows 10, actualiza primero o usa la opción alternativa (Flutter) más abajo.
+Si tienes una versión antigua de Windows 10, actualiza primero.
 
 ---
 
@@ -46,21 +46,6 @@ En algunas instalaciones antiguas el comando es **`wsl.exe`** o solo funciona tr
 
 ---
 
-## Opción C: No usar WSL – generar APK con la versión Flutter
+## Opción C: No usar WSL – generar APK en la nube (GitHub Actions)
 
-Si no puedes o no quieres usar WSL, puedes generar el APK con la **versión Flutter** del mismo juego (misma lógica, otra tecnología). Ese APK se genera **desde Windows** sin Linux:
-
-1. Instala **Flutter** y añade su `bin` al PATH (ver **flutter_app/COMO_GENERAR_APK.md**).
-2. En PowerShell:
-   ```powershell
-   cd "C:\Users\Familia\AndroidStudioProjects\millonario_biblico\flutter_app"
-   flutter pub get
-   flutter build apk
-   ```
-3. Copia las preguntas para que el juego tenga el mismo contenido:
-   ```powershell
-   Copy-Item "..\preguntas\preguntas_biblicas.json" -Destination "assets\preguntas\"
-   ```
-4. El APK quedará en: `flutter_app\build\app\outputs\flutter-apk\app-release.apk`.
-
-Así obtienes un APK instalable en el móvil sin usar WSL ni Buildozer.
+Si no puedes o no quieres usar WSL, puedes generar el APK **sin Linux en tu PC** usando GitHub Actions. Ver **COMO_GENERAR_APK_SIN_LINUX.md**.

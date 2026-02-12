@@ -40,19 +40,11 @@ python main_linux.py
 ```
 O bien: `./run_app.sh` (ejecuta main_linux.py). En Linux se usa **main_linux.py**, que carga preguntas y sonidos en hilos para no bloquear la ventana. Ver **EJECUTAR_APP_UBUNTU.md**.
 
-### Para Android (usando Buildozer)
+### Para Android (APK)
 
-1. Instala Buildozer:
-```bash
-pip install buildozer
-```
+**Recomendado (sin Linux en tu PC):** Sube el proyecto a GitHub y usa GitHub Actions. Ver **COMO_GENERAR_APK_SIN_LINUX.md**.
 
-2. Compila la APK:
-```bash
-buildozer android debug
-```
-
-La APK se generará en el directorio `bin/`
+**Con Linux/WSL:** Instala Buildozer y ejecuta `buildozer android debug`. Ver **COMO_GENERAR_APK_KIVY.md**.
 
 ## Estructura del Proyecto
 

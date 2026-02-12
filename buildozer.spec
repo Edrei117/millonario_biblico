@@ -6,7 +6,7 @@ source.dir = .
 source.main = main
 source.include_exts = py,png,jpg,kv,json,wav,mp3,ogg,jpeg,gif
 source.include_patterns = assets/*,assets/**,sounds/*,sounds/**,audio/*,audio/**,preguntas/*,preguntas/**,comodines/*,comodines/**
-source.exclude_dirs = tests, bin, venv, __pycache__, .gradle, flutter_app, .idea
+source.exclude_dirs = tests, bin, venv, __pycache__, .gradle, .idea
 source.exclude_patterns = *.pyc,*.md
 version = 1.0
 requirements = python3,kivy==2.3.1,kivymd==1.2.0,pyjnius,pillow

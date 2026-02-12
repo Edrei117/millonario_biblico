@@ -72,4 +72,4 @@ bin/millonariobiblico-1.0-arm64-v8a-debug.apk
 | Generar APK a mano | En Ubuntu: `buildozer android debug` |
 | Dónde está el APK  | Carpeta `bin/` del proyecto    |
 
-Esta guía es solo para la versión **Kivy** del juego. El código está en `main.py`, `main.kv`, `screens/`, `config.py` y los recursos en `assets/`, `sounds/`, `preguntas/`.
+El código está en `main.py`, `main.kv`, `screens/`, `config.py` y los recursos en `assets/`, `sounds/`, `preguntas/`.
