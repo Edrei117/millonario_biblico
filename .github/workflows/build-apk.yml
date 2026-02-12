@@ -14,29 +14,24 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 120
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Instalar dependencias del sistema
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y pipx python3-venv python3-distutils build-essential openjdk-17-jdk unzip libffi-dev libssl-dev
-
-      - name: Instalar Buildozer
-        run: |
-          pipx ensurepath
-          pipx install buildozer
-          echo "$HOME/.local/bin" >> $GITHUB_PATH
-
-      - name: Generar APK
-        run: |
-          buildozer android debug
+      # Usamos una acción que ya trae un entorno Buildozer listo
+      # (con Python y todas las dependencias correctas), evitando
+      # los problemas de distutils y versiones de Python.
+      - name: Build with Buildozer
+        id: buildozer
+        uses: ArtemSBulgakov/buildozer-action@v1
+        with:
+          workdir: .
+          buildozer_version: stable
 
       - name: Subir APK
         uses: actions/upload-artifact@v4
         with:
           name: apk-millonario-biblico
-          path: bin/*.apk
+          path: ${{ steps.buildozer.outputs.filename }}
